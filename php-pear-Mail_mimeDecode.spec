@@ -7,7 +7,7 @@ Summary:	%{_pearname} - decode MIME messages
 Summary(pl.UTF-8):	%{_pearname} - dekodowanie wiadomości MIME
 Name:		php-pear-%{_pearname}
 Version:	1.5.0
-Release:	4
+Release:	5
 License:	BSD Style
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
