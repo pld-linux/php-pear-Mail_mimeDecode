@@ -29,7 +29,7 @@ has been split off.
 In PEAR status of this package is: %{_status}.
 
 %description -l pl.UTF-8
-Klasa ta dotarcza sposobu na decodowanie i analizę wiadomości MIME.
+Ta klasa pozwala na dekodowanie i analizę wiadomości MIME.
 Funkcjonalność ta była częścią pakietu Mail_Mime, została jednak z
 niego wydzielona.
 
