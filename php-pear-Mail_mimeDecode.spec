@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - decode MIME messages
 Summary(pl.UTF-8):	%{_pearname} - dekodowanie wiadomości MIME
 Name:		php-pear-%{_pearname}
-Version:	1.5.0
-Release:	5
+Version:	1.5.1
+Release:	1
 License:	BSD Style
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	e81f99c951eb5f199caa9dcd9c16f97f
+# Source0-md5:	0a8e7bc71dd78a2811b34cbe2d4b0792
 URL:		http://pear.php.net/package/Mail_mimeDecode/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -39,9 +39,9 @@ Ta klasa ma w PEAR status: %{_status}.
 Summary:	Tests for PEAR::%{_pearname}
 Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
-AutoReq:	no
 Requires:	%{name} = %{version}-%{release}
 AutoProv:	no
+AutoReq:	no
 
 %description tests
 Tests for PEAR::%{_pearname}.
