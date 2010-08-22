@@ -15,6 +15,7 @@ Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/package/Mail_mimeDecode/
 BuildRequires:	php-pear-PEAR >= 1:1.6.0
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
+BuildRequires:	rpmbuild(macros) >= 1.300
 Requires:	php-pear
 Requires:	php-pear-Mail_Mime > 1.4.0
 BuildArch:	noarch
