@@ -1,5 +1,4 @@
 %define		pearname	Mail_mimeDecode
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - decode MIME messages
 Summary(pl.UTF-8):	%{pearname} - dekodowanie wiadomości MIME
 Name:		php-pear-%{pearname}
